@@ -14,14 +14,17 @@ server = "irc.twitch.tv"
 port = 6667
 svr = Server(server, port)
 
-channel = "metzelrio"
+# Channel to Join Here
+channel = ""
 chn = Channel(channel)
 
-user = "grintwisted"
+# Channels User Here
+user = ""
 usr = User(user)
 
-bot = "smirksbot"
-oath = "oauth:s9cbzfp1bglrisa6aj4rgpmninep16"
+# Bot Details Here
+bot = ""
+oath = ""
 bot = Bot(bot, oath)
 
 vws = Viewers(chn)

@@ -50,3 +50,11 @@ class Chat:
             user = self.get_user(line)
             message = self.get_message(line)
             print(user, " > ", message)
+            self.commands(user, message)
+
+
+    def commands(self, user, message):
+        if "!commands" in message:
+            # List of Commands
+            msg = ""
+            self.send_message(msg)
